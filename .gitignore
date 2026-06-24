@@ -1,0 +1,23 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Arduino IDE cache
+*.cache
+
+# Wavetable audio files (large — store locally, not in git)
+assets/wavetables/*.wav
+assets/wavetables/*.raw
+
+# Compiled objects
+*.o
+*.a
